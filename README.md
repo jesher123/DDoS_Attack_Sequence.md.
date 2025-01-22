@@ -1,1 +1,7 @@
-https://github.com/jesher123/DDoS_Attack_Sequence.md..git
+```mermaid
+sequenceDiagram
+Attacker----->BotNet: Attacker sends bots to Server
+BotNet---->WebServer: Bots Spam Webserver Crashes
+Webserver---->Firewall: Firewall blocks bots
+Firewall----->WebServer: Attack Dismantled
+```
