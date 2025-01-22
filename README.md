@@ -3,6 +3,6 @@ sequenceDiagram
 Attacker-->BotNet: Attacker sends bots to Server
 BotNet-->WebServer: Bots Spam Webserver Crashes
 WebServer-->Firewall: Alerts Firewall
-Firewall<--Webserver: Blocks Bots
+Firewall-->>Webserver: Blocks Bots
 WebServer-->Firewall: Reports Success
 ```
